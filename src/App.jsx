@@ -23,11 +23,9 @@ function App() {
     <Router>
       <Navbar />
       <HeroBanner />
-      {/* <Gallery /> */}
-      {/* <LogoSlider /> */}
-      {/* <Insight /> */}
+
       <DiscussProject />
-      {/* <Testimonial /> */}
+
       <Footer />
     </Router>
   );
