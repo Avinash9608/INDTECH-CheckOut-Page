@@ -25,7 +25,7 @@ function App() {
       <HeroBanner />
 
       <DiscussProject />
-
+    
       <Footer />
     </Router>
   );

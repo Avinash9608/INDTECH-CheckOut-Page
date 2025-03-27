@@ -149,3 +149,17 @@ ul {
 .thin-text {
   font-weight: 300;
 }
+
+/* Checkout page sommth expanding HeroBanner.jsx */
+/* Smooth accordion animation */
+.accordion-body {
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+  max-height: 0;
+  opacity: 0;
+}
+
+.accordion-body.expanded {
+  max-height: 500px; /* Adjust based on content height */
+  opacity: 1;
+}
